@@ -1,0 +1,26 @@
+{
+  "name": "wrappertest-smc",
+  "version": "0.1.0",
+  "description": "Playing around with node wrapper for cli",
+  "scripts": {
+    "test": "echo \"Error: not test specified\" && exit 1"
+  },
+  "main": "lib/local-cordova",
+  "bin": {
+    "local-cordova": "lib/local-cordova.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stacic/wrappertest-smc"
+  },
+  "author": "Staci Cooper",
+  "license": "na",
+  "bugs": {
+    "url": "https://github.com/stacic/wrappertest-smc/issues"
+  },
+  "homepage": "https://github.com/stacic/wrappertest-smc",
+  "devDependencies": {
+    "findup-sync": "^0.1.3",
+    "shelljs": "^0.3.0"
+  }
+}
